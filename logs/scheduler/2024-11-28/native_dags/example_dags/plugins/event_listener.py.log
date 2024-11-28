@@ -1,0 +1,10 @@
+[2024-11-28T10:15:26.045+0700] {processor.py:186} INFO - Started process (PID=81193) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:15:26.046+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-11-28T10:15:26.047+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:26.047+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:15:26.049+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:15:26.054+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-11-28T10:16:23.198+0700] {processor.py:186} INFO - Started process (PID=81776) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:16:23.199+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-11-28T10:16:23.200+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:23.200+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:16:23.202+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-11-28T10:16:23.210+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.016 seconds

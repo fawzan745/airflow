@@ -1,0 +1,18 @@
+[2024-11-07T12:02:10.864+0700] {processor.py:186} INFO - Started process (PID=32161) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:02:10.865+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-07T12:02:10.868+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:02:10.868+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:02:10.928+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:02:10.939+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:02:10.939+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:02:10.964+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.103 seconds
+[2024-11-07T12:03:01.305+0700] {processor.py:186} INFO - Started process (PID=32815) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:03:01.305+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-07T12:03:01.306+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:03:01.306+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:03:01.309+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:03:01.321+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:03:01.321+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:03:01.340+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.039 seconds
+[2024-11-07T12:05:13.428+0700] {processor.py:186} INFO - Started process (PID=33597) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:05:13.429+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-07T12:05:13.432+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:05:13.432+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:05:13.503+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-07T12:05:13.514+0700] {logging_mixin.py:190} INFO - [2024-11-07T12:05:13.514+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-07T12:05:13.535+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.112 seconds

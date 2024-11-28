@@ -1,0 +1,32 @@
+[2024-11-07T12:02:50.089+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T12:02:50.095+0700] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rocket_launch_pipeline.fetch_rocket_data scheduled__2024-01-13T00:00:00+00:00 [queued]>
+[2024-11-07T12:02:50.098+0700] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rocket_launch_pipeline.fetch_rocket_data scheduled__2024-01-13T00:00:00+00:00 [queued]>
+[2024-11-07T12:02:50.098+0700] {taskinstance.py:2865} INFO - Starting attempt 4 of 4
+[2024-11-07T12:02:50.106+0700] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): fetch_rocket_data> on 2024-01-13 00:00:00+00:00
+[2024-11-07T12:02:50.109+0700] {standard_task_runner.py:72} INFO - Started process 32640 to run task
+[2024-11-07T12:02:50.111+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'rocket_launch_pipeline', 'fetch_rocket_data', 'scheduled__2024-01-13T00:00:00+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpgs2wun0m']
+[2024-11-07T12:02:50.111+0700] {standard_task_runner.py:105} INFO - Job 68: Subtask fetch_rocket_data
+[2024-11-07T12:02:50.135+0700] {task_command.py:467} INFO - Running <TaskInstance: rocket_launch_pipeline.fetch_rocket_data scheduled__2024-01-13T00:00:00+00:00 [running]> on host fawzan-HP-Pavilion-x360-2-in-1-Laptop-14-ek1xxx
+[2024-11-07T12:02:50.166+0700] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='rocket_launch_pipeline' AIRFLOW_CTX_TASK_ID='fetch_rocket_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-13T00:00:00+00:00'
+[2024-11-07T12:02:50.166+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-07T12:02:50.167+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-07T12:02:50.167+0700] {logging_mixin.py:190} INFO - Current task name:fetch_rocket_data state:running start_date:2024-11-07 05:02:50.095629+00:00
+[2024-11-07T12:02:50.167+0700] {logging_mixin.py:190} INFO - Dag name:rocket_launch_pipeline and current dag run status:running
+[2024-11-07T12:02:50.167+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T12:02:50.167+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-11-07T12:02:50.168+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -L -o /tmp/launches.json https://ll.thespacedevs.com/2.2.0/launch/upcoming']
+[2024-11-07T12:02:50.171+0700] {subprocess.py:86} INFO - Output:
+[2024-11-07T12:02:50.175+0700] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-11-07T12:02:50.176+0700] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-11-07T12:02:51.305+0700] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+[2024-11-07T12:02:51.940+0700] {subprocess.py:93} INFO -   0 46574    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 46574  100 46574    0     0  26394      0  0:00:01  0:00:01 --:--:--  210k
+[2024-11-07T12:02:51.944+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-11-07T12:02:51.963+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T12:02:51.963+0700] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=rocket_launch_pipeline, task_id=fetch_rocket_data, run_id=scheduled__2024-01-13T00:00:00+00:00, execution_date=20240113T000000, start_date=20241107T050250, end_date=20241107T050251
+[2024-11-07T12:02:51.970+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-07T12:02:51.970+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-07T12:02:51.970+0700] {logging_mixin.py:190} INFO - Dag name:rocket_launch_pipeline queued_at:2024-11-06 11:16:08.752088+00:00
+[2024-11-07T12:02:51.971+0700] {logging_mixin.py:190} INFO - Task hostname:fawzan-HP-Pavilion-x360-2-in-1-Laptop-14-ek1xxx operator:BashOperator
+[2024-11-07T12:02:52.011+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T12:02:52.029+0700] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-07T12:02:52.032+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

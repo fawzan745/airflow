@@ -1,0 +1,5 @@
+[2024-11-28T10:15:50.437+0700] {processor.py:186} INFO - Started process (PID=81431) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-11-28T10:15:50.438+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-11-28T10:15:50.440+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:50.439+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-11-28T10:15:50.445+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-11-28T10:15:50.458+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.029 seconds

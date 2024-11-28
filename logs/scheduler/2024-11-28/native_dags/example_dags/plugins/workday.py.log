@@ -1,0 +1,12 @@
+[2024-11-28T10:15:27.234+0700] {processor.py:186} INFO - Started process (PID=81211) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:15:27.235+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-28T10:15:27.236+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:27.236+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:15:27.239+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:27.239+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T10:15:27.239+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:15:27.247+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2024-11-28T10:16:24.397+0700] {processor.py:186} INFO - Started process (PID=81777) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:16:24.401+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-28T10:16:24.402+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:24.402+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:16:24.405+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:24.405+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-28T10:16:24.405+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-28T10:16:24.412+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds

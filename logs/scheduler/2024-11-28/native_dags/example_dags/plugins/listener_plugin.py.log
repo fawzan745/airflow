@@ -1,0 +1,10 @@
+[2024-11-28T10:15:28.412+0700] {processor.py:186} INFO - Started process (PID=81231) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:15:28.413+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-11-28T10:15:28.414+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:28.413+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:15:28.415+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:15:28.421+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.013 seconds
+[2024-11-28T10:16:25.617+0700] {processor.py:186} INFO - Started process (PID=81779) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:16:25.617+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-11-28T10:16:25.618+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:25.618+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:16:25.619+0700] {processor.py:927} WARNING - No viable dags retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-11-28T10:16:25.625+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.011 seconds

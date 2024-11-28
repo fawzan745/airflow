@@ -1,0 +1,142 @@
+[2024-11-06T17:13:08.485+0700] {processor.py:186} INFO - Started process (PID=3962) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:13:08.485+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T17:13:08.487+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.486+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:13:08.496+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:13:08.599+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.599+0700] {override.py:1900} INFO - Created Permission View: can delete on DAG:rocket_launch_pipeline
+[2024-11-06T17:13:08.606+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.606+0700] {override.py:1900} INFO - Created Permission View: can read on DAG:rocket_launch_pipeline
+[2024-11-06T17:13:08.616+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.616+0700] {override.py:1900} INFO - Created Permission View: can edit on DAG:rocket_launch_pipeline
+[2024-11-06T17:13:08.624+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.624+0700] {override.py:1900} INFO - Created Permission View: can create on DAG Run:rocket_launch_pipeline
+[2024-11-06T17:13:08.630+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.630+0700] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:rocket_launch_pipeline
+[2024-11-06T17:13:08.635+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.635+0700] {override.py:1900} INFO - Created Permission View: can read on DAG Run:rocket_launch_pipeline
+[2024-11-06T17:13:08.640+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.640+0700] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:rocket_launch_pipeline
+[2024-11-06T17:13:08.640+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.640+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T17:13:08.646+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.645+0700] {dag.py:3262} INFO - Creating ORM DAG for rocket_launch_pipeline
+[2024-11-06T17:13:08.650+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:13:08.650+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T17:13:08.660+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.178 seconds
+[2024-11-06T17:14:05.110+0700] {processor.py:186} INFO - Started process (PID=4043) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:05.112+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T17:14:05.115+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:05.115+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:05.124+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:05.132+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:05.132+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T17:14:05.142+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:05.142+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T17:14:05.153+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.049 seconds
+[2024-11-06T17:14:57.720+0700] {processor.py:186} INFO - Started process (PID=4123) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:57.723+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T17:14:57.725+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:57.724+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:57.734+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:14:57.743+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:57.743+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T17:14:57.754+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:14:57.753+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T17:14:57.766+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.051 seconds
+[2024-11-06T17:15:50.757+0700] {processor.py:186} INFO - Started process (PID=4177) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:15:50.760+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T17:15:50.761+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:15:50.761+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:15:50.767+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T17:15:50.775+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:15:50.775+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T17:15:50.786+0700] {logging_mixin.py:190} INFO - [2024-11-06T17:15:50.786+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T17:15:50.798+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.044 seconds
+[2024-11-06T18:12:57.709+0700] {processor.py:186} INFO - Started process (PID=2687) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:12:57.710+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:12:57.711+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:12:57.711+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:12:57.720+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:12:57.785+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:12:57.785+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:12:57.794+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:12:57.794+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T18:12:57.805+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.098 seconds
+[2024-11-06T18:13:53.669+0700] {processor.py:186} INFO - Started process (PID=3268) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:13:53.671+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:13:53.673+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:13:53.673+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:13:53.679+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:13:53.687+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:13:53.687+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:13:53.697+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:13:53.697+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T18:13:53.710+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.046 seconds
+[2024-11-06T18:14:44.730+0700] {processor.py:186} INFO - Started process (PID=3413) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:14:44.733+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:14:44.736+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:14:44.735+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:14:44.745+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:14:44.754+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:14:44.754+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:14:44.765+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:14:44.765+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T18:14:44.778+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.053 seconds
+[2024-11-06T18:15:34.404+0700] {processor.py:186} INFO - Started process (PID=3533) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:15:34.407+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:15:34.410+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:15:34.409+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:15:34.419+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:15:34.427+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:15:34.427+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:15:34.438+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:15:34.437+0700] {dag.py:4180} INFO - Setting next_dagrun for rocket_launch_pipeline to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-11-06T18:15:34.449+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.050 seconds
+[2024-11-06T18:16:13.836+0700] {processor.py:186} INFO - Started process (PID=3722) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:13.839+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:16:13.840+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:16:13.840+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:13.847+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:13.855+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:16:13.855+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:16:13.877+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.048 seconds
+[2024-11-06T18:16:55.601+0700] {processor.py:186} INFO - Started process (PID=3810) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:55.604+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:16:55.607+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:16:55.606+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:55.616+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:16:55.624+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:16:55.624+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:16:55.644+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.049 seconds
+[2024-11-06T18:17:48.015+0700] {processor.py:186} INFO - Started process (PID=3953) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:17:48.018+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:17:48.020+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:17:48.019+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:17:48.025+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:17:48.034+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:17:48.034+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:17:48.055+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.044 seconds
+[2024-11-06T18:18:38.939+0700] {processor.py:186} INFO - Started process (PID=4050) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:18:38.943+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:18:38.945+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:18:38.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:18:38.954+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:18:38.963+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:18:38.963+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:18:38.985+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.052 seconds
+[2024-11-06T18:19:32.710+0700] {processor.py:186} INFO - Started process (PID=4153) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:19:32.713+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:19:32.715+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:19:32.715+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:19:32.725+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:19:32.734+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:19:32.734+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:19:32.759+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.056 seconds
+[2024-11-06T18:20:27.243+0700] {processor.py:186} INFO - Started process (PID=4250) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:27.246+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:20:27.248+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:20:27.248+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:27.257+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:27.266+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:20:27.266+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:20:27.287+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.049 seconds
+[2024-11-06T18:20:59.308+0700] {processor.py:186} INFO - Started process (PID=4352) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:59.311+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:20:59.313+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:20:59.313+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:59.321+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:20:59.329+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:20:59.329+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:20:59.350+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.047 seconds
+[2024-11-06T18:21:38.404+0700] {processor.py:186} INFO - Started process (PID=4473) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:21:38.407+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:21:38.409+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:21:38.409+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:21:38.418+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:21:38.431+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:21:38.430+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:21:38.455+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.057 seconds
+[2024-11-06T18:22:34.336+0700] {processor.py:186} INFO - Started process (PID=4599) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:22:34.339+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:22:34.342+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:22:34.341+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:22:34.351+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:22:34.361+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:22:34.360+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:22:34.382+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.051 seconds
+[2024-11-06T18:23:29.803+0700] {processor.py:186} INFO - Started process (PID=4695) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:23:29.806+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:23:29.808+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:23:29.808+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:23:29.818+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:23:29.827+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:23:29.827+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:23:29.848+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.051 seconds
+[2024-11-06T18:24:24.974+0700] {processor.py:186} INFO - Started process (PID=4809) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:24:24.976+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:24:24.977+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:24:24.977+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:24:24.983+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:24:24.992+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:24:24.992+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:24:25.014+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.043 seconds
+[2024-11-06T18:31:47.591+0700] {processor.py:186} INFO - Started process (PID=4941) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:31:47.592+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:31:47.593+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:31:47.593+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:31:47.600+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:31:47.664+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:31:47.664+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:31:47.684+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.097 seconds
+[2024-11-06T18:33:10.197+0700] {processor.py:186} INFO - Started process (PID=5237) to work on /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:33:10.198+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/dags/dag.py for tasks to queue
+[2024-11-06T18:33:10.199+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:33:10.199+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:33:10.205+0700] {processor.py:925} INFO - DAG(s) 'rocket_launch_pipeline' retrieved from /home/fawzan/airflow/dags/dag.py
+[2024-11-06T18:33:10.213+0700] {logging_mixin.py:190} INFO - [2024-11-06T18:33:10.213+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T18:33:10.239+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/dags/dag.py took 0.045 seconds

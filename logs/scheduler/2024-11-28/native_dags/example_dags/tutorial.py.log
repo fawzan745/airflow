@@ -1,0 +1,14 @@
+[2024-11-28T10:15:25.654+0700] {processor.py:186} INFO - Started process (PID=81191) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:15:25.654+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-28T10:15:25.655+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:25.655+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:15:25.658+0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:15:25.669+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:25.668+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T10:15:25.679+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:15:25.679+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-27 00:00:00+00:00, run_after=2024-11-28 00:00:00+00:00
+[2024-11-28T10:15:25.694+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2024-11-28T10:16:21.811+0700] {processor.py:186} INFO - Started process (PID=81738) to work on /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:16:21.813+0700] {processor.py:914} INFO - Processing file /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-28T10:16:21.814+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:21.814+0700] {dagbag.py:588} INFO - Filling up the DagBag from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:16:21.819+0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-11-28T10:16:21.828+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:21.828+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-28T10:16:21.837+0700] {logging_mixin.py:190} INFO - [2024-11-28T10:16:21.837+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-27 00:00:00+00:00, run_after=2024-11-28 00:00:00+00:00
+[2024-11-28T10:16:21.848+0700] {processor.py:208} INFO - Processing /home/fawzan/airflow/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
